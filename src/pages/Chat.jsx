@@ -49,7 +49,7 @@ export default function Chat() {
     <div className="chat-wrap">
       <div className="chat-header">
         <button className="back-btn" onClick={() => navigate("/")}>
-          ← Tabla
+          ← Nazad
         </button>
         <div className="chat-header-main">
           <div className="code-tag" style={{ borderColor: agent.color, color: agent.color }}>
