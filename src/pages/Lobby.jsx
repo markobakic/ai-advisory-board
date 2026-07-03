@@ -9,7 +9,7 @@ export default function Lobby() {
   return (
     <div className="lobby-wrap">
       {/* <div className="eyebrow">Interni savetodavni panel</div> */}
-      <h1 className="title">AI Advisory Board</h1>
+      <h1 className="title">AI Advisory Bossssssssssard</h1>
       {/* <p className="subtitle">
         Pet stručnih savetnika, svaki povezan sa svojim n8n workflow-om. Izaberi jednog da započneš razgovor.
       </p> */}
