@@ -22,7 +22,7 @@ export const AGENTS = [
     name: "Culture",
     tagline: "People, values, org health",
     color: "#9B72CF",
-    webhookUrl: "https://sinisa1989.app.n8n.cloud/webhook/a49ccb6c-38b1-4505-b29e-69fc5395cdd0/chat",
+    webhookUrl: import.meta.env.VITE_WEBHOOK_CULTURE,
   },
   {
     id: "innovation",
@@ -30,7 +30,7 @@ export const AGENTS = [
     name: "Innovation",
     tagline: "New bets, R&D, emerging tech",
     color: "#D9A441",
-    webhookUrl: "https://sinisa1989.app.n8n.cloud/webhook/8ef8a44a-d744-4749-8b85-f1ed7d02e8f0/chat",
+    webhookUrl: import.meta.env.VITE_WEBHOOK_INNOVATION,
   },
   {
     id: "operations",
@@ -38,7 +38,7 @@ export const AGENTS = [
     name: "Operations",
     tagline: "Process, delivery, execution",
     color: "#4A93A8",
-    webhookUrl: "https://YOUR-N8N-DOMAIN/webhook/operations-advisor",
+    webhookUrl: import.meta.env.VITE_WEBHOOK_OPERATIONS,
   },
   {
     id: "strategy",
@@ -46,7 +46,7 @@ export const AGENTS = [
     name: "Strategy",
     tagline: "Market position, long-range plans",
     color: "#C2564A",
-    webhookUrl: "https://YOUR-N8N-DOMAIN/webhook/strategy-advisor",
+    webhookUrl: import.meta.env.VITE_WEBHOOK_STRATEGY,
   },
 ];
 
