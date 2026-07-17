@@ -14,7 +14,7 @@ export const AGENTS = [
     name: "Finance",
     tagline: "Budgets, forecasts, unit economics",
     color: "#4C9A72",
-    webhookUrl: "import.meta.env.VITE_WEBHOOK_FINANCE",
+    webhookUrl: import.meta.env.VITE_WEBHOOK_FINANCE,
   },
   {
     id: "culture",
