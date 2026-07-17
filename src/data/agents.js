@@ -14,7 +14,7 @@ export const AGENTS = [
     name: "Finance",
     tagline: "Budgets, forecasts, unit economics",
     color: "#4C9A72",
-    webhookUrl: "https://sinisa1989.app.n8n.cloud/webhook/f8efa6cb-6846-4c88-9809-24c5921850da/chat",
+    webhookUrl: "import.meta.env.VITE_WEBHOOK_FINANCE",
   },
   {
     id: "culture",
